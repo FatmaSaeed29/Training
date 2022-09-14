@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;1,300;1,500;1,600&family=Big+Shoulders+Display:wght@700&family=Kumbh+Sans:wght@400;700&family=Lalezar&family=Open+Sans:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500&family=Overpass:wght@300;600&family=Poppins:wght@400;500;600;700&family=Raleway:ital,wght@0,500;0,600;0,800;1,300;1,700&family=Rubik:wght@300;400;500&family=Ubuntu:ital,wght@0,400;0,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background-image: linear-gradient(to right, rgba(228, 230, 240, 0), rgb(120, 133, 247));
+}
+.contain{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    top: 40px;
+    background-color: #fff;
+    border: 1px solid rgb(166, 166, 228);
+    /* padding: 0px 5px 5px 5px; */
+
+}
+.contain nav .navbar-brand{
+    left: 17px;
+}
+.contain nav .collapse .close i{
+    position: absolute;
+    color: #fff;
+    right: 17px;
+    bottom: 13px;
+}
+.contain .body .row form .trois{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+}
+.contain .body .row form .twin{
+    display: flex;
+    flex-direction: row;
+}
+.contain .body .row form .twin .email{
+    margin-left: 34px;
+}
+/* .contain .body .row form .gname{
+    margin-left: 25px;
+}
+.contain .body .row form .blood{
+    margin-left: 30px;
+} */
+.uploadfile{
+    background-color: transparent;
+    border: none;
+    color: rgb(44, 12, 161);
+}
+.wrapper{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .link_wrapper{
+    position: relative;
+  }
+  
+ .box-1 a{
+    display: block;
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    background: rgb(151, 237, 243);
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 3px solid rgb(151, 237, 243);
+    transition: all .35s;
+    border-radius: 10px;
+  }
+  
+  .icon{
+    width: 50px;
+    height: 50px;
+    border: 3px solid transparent;
+    position: absolute;
+    transform: rotate(45deg);
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transition: all .35s;
+  }
+  
+  .icon svg{
+    width: 30px;
+    position: absolute;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    transform: rotate(-45deg);
+    fill: #2ecc71;
+    transition: all .35s;
+  }
+  
+  a:hover{
+    width: 200px;
+    border: 3px solid #2ecc71;
+    background: transparent;
+    color: #2ecc71;
+  }
+  
+  a:hover + .icon{
+    border: 3px solid #2ecc71;
+    right: -25%;
+  }
+
+

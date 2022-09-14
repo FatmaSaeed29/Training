@@ -1,0 +1,162 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    margin-left: 10px;
+    margin-top: -10px;
+    /* overflow-x: hidden; */
+}
+#car2
+{
+    border: 1px solid #cccc;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 20px;
+    height: 600px;
+    width: 1400px;
+    
+}
+#carHead1
+{
+  font-size: 20px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+#div2
+{
+    display: flex;
+    float: right;
+    padding: 5px;
+   /* background-color: rgb(22, 22, 56); */
+   justify-content: space-between;
+}
+#butt1
+{
+    background-color: rgb(30, 30, 72);
+    color: #ffff;
+    height: 30px;
+    margin-top: -5px;
+    margin-right: 10px;
+    border: none;
+    width: 200px;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#butt1:hover
+{
+    background-color: rgb(44, 44, 101);
+}
+#input1
+{
+    margin-top: 30px;
+    border-top: none;
+    border-left: none;
+    border-right:none ;
+    padding-left: 20px;
+}
+.div3
+{
+    padding-top: 20px;
+}
+.p2
+{
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    opacity: 0.7;
+    display: inline;
+}
+span{
+    font-weight: bold;
+    font-size: 17px;
+}
+#dropdownMenuButton
+{
+    margin-top: 60px;
+    background-color: #ffff;
+    border: none;
+    margin-left: 5px;
+    text-decoration: none;
+    justify-content: space-between;
+    padding-left: 50px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    
+}
+.span1
+{
+    color: red;
+}
+.div4
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.div4:hover
+{
+    background-color: #cccc;
+}
+.p3
+{
+    display: inline;
+    padding-left: 50px;
+}
+.p4
+{
+    padding-left: 20px;
+    margin-top: 50px;
+    
+    
+}
+.sele1
+{
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 30px;
+    border-color: blue;
+}
+.p5
+{
+    /* display: inline; */
+    margin-top: -65px;
+    margin-left: 600px;
+}
+[type="file"] {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    white-space: nowrap;
+    width: 1px;
+  }
+  [type="file"] + label {
+    background: #080a6b;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+    font-size: inherit;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    outline: none;
+    padding: 0.6rem 50px;
+    position: relative;
+    vertical-align: middle;
+    margin-left: 600px;
+    margin-top: 10px;
+  }
+#save
+{
+    background: #080a6b;
+    border: none;
+    width:150px;
+    height:30px ;
+    float: right;
+    color: #fff;
+    margin-top: 200px;
+    margin-right: 20px;
+}

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;1,300;1,500;1,600&family=Big+Shoulders+Display:wght@700&family=Kumbh+Sans:wght@400;700&family=Lalezar&family=Open+Sans:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500&family=Overpass:wght@300;600&family=Poppins:wght@400;500;600;700&family=Raleway:ital,wght@0,500;0,600;0,800;1,300;1,700&family=Rubik:wght@300;400;500&family=Ubuntu:ital,wght@0,400;0,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.all{
+    position: relative;
+}
+.all nav .first .dropp button{
+    width: 450px !important;
+    overflow: visible;
+}
+.all .first .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 416px !important;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+.dropdown-menu.show {
+    display: block;
+    width: 445px;
+}
+.all nav{
+    position: relative;
+    overflow: visible;
+}
+.all nav .first  .dropdown-menu input ,.all nav .first .btn-group .dropdown-menu p {
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+.all nav .first a button{
+    position: absolute;
+    left: 500px;
+    background-color: #fff;
+    padding: 7px 15px;
+}
+.all nav .first a button:hover{
+    background-color: rgb(55, 55, 219);
+    color: #fff;
+}
+.all nav .first .input-group{
+    position: absolute;
+    left: 750px;
+    top: 8px;
+}
+.all nav .first .input-group input{
+    width: 300px;
+}
+.all nav .first .input-group button{
+    margin-left: -40px;
+    background-color: rgb(236, 232, 232);
+    border: none;
+}
+.all nav .first .close{
+    position: absolute;
+    right: 17px;
+    bottom: 13px;
+}
+.all nav .first .close i{
+    color: #fff;
+}
+
+.all .second .left{
+    position: absolute;
+    left: 20px;
+}
+.all .second .datetime{
+    position: absolute;
+    right: 20px;
+}
+.all .second .datetime input ,.all .second .datetime input:active ,.all .second .datetime input:focus{
+    border: none;
+}
+.all .second .left .two{
+    margin-left: 230px;
+}
+.all .lineone{
+    margin-top: 40px;
+}
+.all .three table thead th{
+    padding: 0 27px;
+    display: inline;
+    cursor: pointer;
+}
+.all .three table thead th i{
+    color: rgb(172, 170, 170);
+}
+.all .three table thead th:active{
+    background-color: rgb(243, 236, 236);
+    padding: 5px 10px;
+}
+.three form .repeatDiv .in{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 7px 5px;
+    padding-bottom: 2px;
+}
+.three form .repeatDiv .in:hover{
+    background-color: rgb(236, 232, 232);
+}
+.three form .generatebill{
+    background-color: rgb(53, 51, 51);
+    color: #fff;
+}
+
+.four{
+    margin: 20px 50px;
+}
+.four form .form-row .col input{
+    width:300px;
+}
+
+.four form .relate{
+    position: relative;
+}
+.four form .relate label{
+    position: absolute;
+    left: 0;
+}
+.four form .relate input{
+    position: absolute;
+    right: 0;
+}
+.four form .relate .inp2 ,.four form .relate .lab2{
+    top: 46px;
+}
+.four form .relate .inp3 ,.four form .relate .lab3{
+    top: 92px;
+}
+.four form .relate .inp4 ,.four form .relate .lab4{
+    top: 140px;
+}
+.four form .relate .inp1 , .four form .relate .inp2 , .four form .relate .inp3 , .four form .relate .inp4{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    direction: rtl;
+    font-weight: bold;
+
+}
+.four form .relate .lab1 , .lab2 ,.lab3, .lab4{
+    font-weight: bold;
+}
+.four form .relate .inp1:focus , .four form .relate .inp2:focus , .four form .relate .inp3:focus , .four form .relate .inp4:focus{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline:none;
+    border-bottom-color: rgb(18, 116, 245);
+}
+.four form .last .form-row{
+    margin-top: 90px;
+}

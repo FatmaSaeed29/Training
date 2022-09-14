@@ -1,0 +1,203 @@
+body{
+    background-color:lightgrey;
+    overflow-x:hidden ;
+}
+.content
+{
+    width: 90%;
+    height: 530px;
+    border: 1px solid;
+    border-color: lightgrey;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 70px;
+    background-color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.content .content1 h1
+{
+    color: #444;
+    display: block;
+    margin: 10px 0 0 12px;
+    position: relative;
+}
+.content .content1 .button1
+{
+    position: absolute;
+    right: 0;
+    margin-right:10px;
+    margin-top: -28px;
+    background-color: black;
+    color: white;
+    word-spacing: 2px;
+    height: 30px;
+}
+.content .content1 .button1:hover {background-color:rgb(20, 20, 79); cursor: pointer;}
+.content .content1 .button1 i {margin-right: 6px;}
+.content .content2 .input
+{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline:none;
+    border-bottom-width: 1px;
+    margin: 8px 0 5px 10px;
+    font-size: 15px;
+}
+.content .content2 .select select
+{
+    position: absolute;
+    right: 0;
+    margin-top: -20px;
+    margin-right: 250px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 15px;    
+}
+.content2 .icons .copy
+{
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    right: 0;
+    margin-right: 200px; 
+    margin-top: -25px;  
+}
+.content2 .icons .copy:hover { color: rgb(171, 170, 170)}
+.content2 .icons .excel
+{
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    right: 0;
+    margin-right: 160px; 
+    margin-top: -25px;    
+}
+.content2 .icons .excel:hover { color: rgb(171, 170, 170)}
+.content2 .icons .csv
+{
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    right: 0;
+    margin-right: 120px; 
+    margin-top: -25px;   
+}
+.content2 .icons .csv:hover { color: rgb(171, 170, 170)}
+.content2 .icons .pdf
+{
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    right: 0;
+    margin-right: 80px; 
+    margin-top: -25px;   
+}
+.content2 .icons .pdf:hover { color: rgb(171, 170, 170)}
+.content2 .icons .print
+{
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    right: 0;
+    margin-right: 40px; 
+    margin-top: -25px;  
+}
+.content2 .icons .print:hover { color: rgb(171, 170, 170)}
+.content2 .icons .hr-icons {width: 190px; right: 0; margin-right: 30px; }
+.content .content3 .h1 
+{
+    font-size: 16px; 
+    margin: 12px 0 0 13px;
+}
+.content .content3 .h1:hover {cursor: pointer;}
+.content .content3 .h1 i {color: gray;}
+.content .content3 .h2 
+{
+    font-size: 15px; 
+    margin: -16px 0 0 340px;
+}
+.content .content3 .h2:hover {cursor: pointer;}
+.content .content3 .h2 i {color: gray;}
+.content .content3 .h3
+{
+    font-size: 15px; 
+    margin: -18px 0 0 530px ;
+}
+.content .content3 .h3:hover {cursor: pointer;}
+.content .content3 .h3 i {color: gray;}
+.content .content3 .h4
+{
+    font-size: 15px; 
+    margin: -19px 0 0 660px ;
+}
+.content .content3 .h4:hover {cursor: pointer;}
+.content .content3 .h4 i {color: gray;}
+.content .content3 .p1 
+{
+    font-size: 14px; 
+    text-align: right;
+    margin: -15px 360px 0 0;
+    font-weight: bold;
+}
+.content .content3 .p2
+{
+    font-size: 14px; 
+    text-align: right;
+    margin: -18px 280px 0 0;
+    font-weight: bold;
+}
+.content .content3 .p3
+{
+    font-size: 14px; 
+    text-align: right;
+    margin: -19px 170px 0 0;
+    font-weight: bold;
+}
+.content .content3 .p4
+{
+    font-size: 14px; 
+    text-align: right;
+    margin: -18px 40px 0 0;
+    font-weight: bold;
+}
+.content .content3 .hr-h {margin: 0 8px 0 8px}
+.content .content4{margin: 0px 10px 0 10px}
+.content .content4:hover{background-color: rgb(234, 232, 232)}
+.content .content4 .p1
+{
+    color: rgb(255, 179, 179);
+    font-size: 19px; 
+    text-align: center;
+    margin-top: -1px;
+}
+.content .content4 img
+{
+    width: 260px;
+    height: 220px;
+    margin: 10px 0 0 530px;
+}
+.content .content4 .p2
+{
+    font-size: 19px; 
+    text-align: center;
+    color: green;
+}
+.content .footer p { margin:0 0 5px 10px }
+.content .footer .one 
+{
+    color: rgb(156, 156, 156);
+    cursor: not-allowed;
+    margin: -20px 0 0 0px;
+    font-size: 12px;
+}
+.content .footer .two
+{
+    color: rgb(156, 156, 156);
+    cursor: not-allowed;
+    margin: -15px 0 0 0px;
+    font-size: 12px;
+}

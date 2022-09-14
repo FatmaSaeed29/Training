@@ -1,0 +1,128 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* overflow: visible */
+}
+
+#car1
+{
+    border: 1px solid #cccc;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 600px;
+}
+#carHead
+{
+  font-size: 20px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+#a1
+{
+   text-align:right ;
+}
+#div1
+{
+    display: flex;
+    float: right;
+    padding: 5px;
+   /* background-color: rgb(22, 22, 56); */
+   justify-content: space-between;
+}
+#butt1
+{
+    background-color: rgb(30, 30, 72);
+    color: #ffff;
+    height: 30px;
+    margin-top: -5px;
+    margin-right: 10px;
+    border: none;
+    width: 130px;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#butt1:hover
+{
+    background-color: rgb(44, 44, 101);
+}
+#input1
+{
+    margin-top: 30px;
+    border-top: none;
+    border-left: none;
+    border-right:none ;
+    margin-left: 20px;
+}
+.dropdown
+{
+    color: black;
+}
+#dropdownMenuButton
+{
+    margin-top: 60px;
+    background-color: #ffff;
+    border: none;
+    margin-left: 10px;
+    text-decoration: none;
+    justify-content: space-between;
+    padding-left: 30px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    
+}
+.input2
+{
+    margin-left: 20px;
+}
+#butt2
+{
+    background-color: rgb(30, 30, 72);
+    color: #ffff;
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: none;
+    width: 130px;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   float: right;
+}
+#butt2:hover
+{
+    background-color: rgb(44, 44, 101);
+}
+
+.sele1
+{
+    border-top: none;
+    border-left: none;
+    border-right:none ;
+    float: right;
+    margin-top: 50px;
+}
+span
+{
+    color: #cccc;
+    width: 10px;
+    height: 10px;
+}
+h3{
+    text-align: center;
+    color: pink;
+    padding-top: 20px;
+}
+.img1
+{
+    margin-left: 42%;
+    padding-top: 10px;
+}
+.div2:hover
+{
+    background-color: rgba(239, 235, 235, 0.968);
+}
+.p1
+{
+    text-align: center;
+    color: rgb(24, 42, 7);
+    font-weight: bold;
+    padding-top: 20px;
+}

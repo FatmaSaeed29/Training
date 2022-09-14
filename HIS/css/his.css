@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;1,300;1,500;1,600&family=Big+Shoulders+Display:wght@700&family=Kumbh+Sans:wght@400;700&family=Lalezar&family=Open+Sans:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500&family=Overpass:wght@300;600&family=Poppins:wght@400;500;600;700&family=Raleway:ital,wght@0,500;0,600;0,800;1,300;1,700&family=Rubik:wght@300;400;500&family=Ubuntu:ital,wght@0,400;0,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height:800px;
+    /* width: 200px; */
+    background-color: rgb(236, 232, 232);
+}
+/* html body{
+    overflow-x: visible;
+} */
+.navbar{
+    position: relative;
+}
+.navbar-brand{
+    color: rgb(106, 226, 50) !important;
+}
+.drop{
+    position: absolute;
+    left: 20px;
+    position: fixed;
+    
+}
+.brand{
+    margin-left: 80px;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right form .search{
+    border-radius: 40px;
+    height: 30px;
+}
+.right .fa-bell ,.right a .fa-bed , .right abbr a .fa-calendar-alt , .right abbr a .fa-tasks ,.right abbr a .fa-comment {
+    color: #fff;
+    margin:0 15px;
+    font-size:larger;
+    z-index: 1;
+}
+.all {
+    position: relative;
+    background-color: #fff;
+    height: 670px;
+    width: 90%;
+    margin-top: 30px;
+}
+.all .first h5{
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+}
+.all .first .buttons{
+    position: absolute; 
+    right: 0;
+}
+.all .first .buttons button{
+    background-color: black;
+    color: white;
+}
+.all .first .buttons button:hover{
+    background-color: rgba(0, 0, 0, .7);
+}
+.all .lineone{
+    margin-top: 40px;
+}
+.all .second input{
+    position:absolute;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color:rgb(172, 170, 170);
+}
+.all .second input:focus{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline:none;
+    border-bottom-color: rgb(18, 116, 245);
+}
+.all .second .right2{
+    position: absolute;
+    right: 0;
+}
+.all .second .right2 select{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.all .second .right2 select:focus ,.all .second .right2 select:active{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.all .second .right2 a i{
+    font-size: 15px;
+}
+.all .second .right2 a:hover{
+    border-bottom: 1px solid rgb(172, 170, 170);
+    padding-bottom: 5px;
+    background-color: rgb(231, 228, 228);
+}
+.all .second .under table thead th , .all .second .under table tbody tr td{
+    padding: 0 15px;
+    display: inline;
+    cursor: pointer;
+}
+.all .second .under table thead th i{
+    color: rgb(172, 170, 170);
+}
+.all .second .under table thead th:active{
+    background-color: rgb(243, 236, 236);
+    padding: 5px 10px;
+}
+.all .three:hover{
+    background-color: rgb(245, 245, 245);
+}
+.all .three{
+    margin-top: -15px;
+}
+.all .three h6{
+    color: pink;
+    overflow: hidden;
+}
+.all .three .newrecord{
+    color: rgb(19, 131, 19);
+}
+.all .four p{
+    position: absolute;
+}
+.all .four .arrow{
+    position: absolute;
+    right: 5px;
+}

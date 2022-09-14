@@ -1,0 +1,72 @@
+body{ 
+    background-image:url(../images/clinic4.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.contact-us .container h1
+{
+    font-size:70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.contact-us .container h2
+{
+    margin-left: 520px;
+    color:brown;
+}
+.contact-us .container hr{margin-right: 880px; }
+.contact-us .container h3
+{
+    font-weight: 800;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 60px;
+}
+
+.contact-us .container2 .form-group
+{
+    margin-left: 525px;
+}
+.contact-us .container2 .form-group .form-control
+{
+    width: 400px;
+    height: 40px;
+    background-color: linen;
+    border: none;
+    margin-top: 10px;
+}
+.contact-us .container2 .form-group .button
+{
+    width: 405px;
+    height: 40px;
+    background-color: steelblue;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    color: #ffff;
+    margin-top: 20px;
+    border-radius: 20% 0 20% 0;
+}
+.contact-us .container3
+{
+    margin-left: 1050px;
+    margin-top: -370px;
+}
+
+.contact-us .container3 .icon
+{
+    color:brown;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.contact-us .container3 p
+{
+    margin-left: 70px;
+    line-height: 30px;
+}
+.contact-us .container3 p bold
+{
+    font-weight: 700;
+    font-size: 17px;
+    color: brown;
+}
